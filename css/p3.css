@@ -158,6 +158,10 @@
         background: var(--primary);
     }
     
+    .branding img {
+        margin-top: 3px;
+    }
+    
     .box {
         width: 30px;
         height: 30px;
