@@ -1,0 +1,18 @@
+.about img {
+    height: 230px;
+    width: 300px;
+    margin-top: 11rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+header nav .left a {
+    text-decoration: none;
+    color: var(--later);
+    margin: 1rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    font-weight: bold;
+    flex-direction: column;
+}
