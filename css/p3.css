@@ -104,7 +104,7 @@ header {
 .content p {
     color: var(--later);
     max-width: 330px;
-    margin: 26px auto;
+    margin: 20px auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
 }
