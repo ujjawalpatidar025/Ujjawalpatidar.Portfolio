@@ -140,6 +140,7 @@
         
         .about {
             height: 660px;
+            display: flex;
         }
         
         .dpimg {
@@ -149,10 +150,6 @@
             justify-content: center;
             padding: auto 0px;
             background: #00ffff;
-        }
-        
-        .about {
-            display: flex;
         }
         
         .about img {
