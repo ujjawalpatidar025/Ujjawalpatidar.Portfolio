@@ -99,6 +99,22 @@ header {
     font-size: 23px;
     color: var(--secondary);
     font-family: 'poppins', Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    border-right: 4px var(--secondary) solid;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    animation: 5s steps(14) 0s infinite normal none running skillmotionwd;
+}
+
+@keyframes skillmotionwd {
+    0% {
+        width: 1ch;
+    }
+    100% {
+        width: 14ch;
+    }
 }
 
 .content p {
